@@ -1,5 +1,5 @@
 ---
-layout: realAnalysisHeader
+layout: realAnalysisBlog
 permalink: /realAnalysis/
 title: Real Analysis
 ---
