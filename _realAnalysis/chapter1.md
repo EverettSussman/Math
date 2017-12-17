@@ -62,3 +62,7 @@ Let's prove this by contradiction.  Assume that there is a rational number $x = 
 **(Rudin 1.5)** Let $A$ be a nonempty set of real numbers which is bounded below.  Let $-A$ be the set of all numbers $-x$, where $x \in A$.  Prove that
 
 $$\inf A = - \sup(-A).$$
+
+Let's start with the below picture:
+
+![infminussup](infminussup.png)
