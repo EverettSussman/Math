@@ -1,6 +1,5 @@
 ---
 title: Diving into Mathematics
-layout: default
 ---
 
 # Background for this Website
