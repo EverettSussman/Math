@@ -1,1 +1,10 @@
 theme: jekyll-theme-midnight
+markdown: kramdown
+title: Visualizing Math
+author: 
+  - Everett Sussman
+include: ['_realAnalysis']
+kramdown:
+  math_engine: mathjax
+  input: GFM
+  syntax_highlighter: rouge
