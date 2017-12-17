@@ -6,7 +6,7 @@ title: Rudin Chapter 1
 
 # Major Theorems
 
-## The Equivalence of the Supremum of Lower Bounds and Infimums of Sets
+## The Equivalence of the Supremum of Lower Bounds and Infimum of Sets
 
 The first theorem in this chapter is an excellent example of how visuals can be very helpful.  We have:
 
@@ -26,8 +26,32 @@ We also know that every element $x_i > \alpha$ is not in $L$ since $\alpha$ is a
 
 Note that in the above picture, $\alpha$ does not necessarily have to be in $B$, especially in the event where there is a closed hole above $\alpha$.  However, the image makes the relationship between the supremum and infimum much clearer.  
 
+## The Triangle Inequality
 
+Another classic theorem from Rudin's first chapter is the following:
 
-# Relationship between Rationals and Irrationals
+**Theorem 2 (Rudin 1.37)**: Let $\vec{x}, \vec{y} \in \mathbb{R}^k$.  Then
+$$|\vec{x} + \vec{y}| \leq |\vec{x}| + |\vec{y}|. $$
 
-The first problem for this chapter is that
+This is called the triangle inequality, and the reason behind this name should hopefully become clear after the following image.  Note that $|\vec{x}|$ can be interpreted as the magnitude (or length) of the vector $\vec{x}$.
+
+Looking at the instance where $k = 2$, if we interpret $\vec{x}$ as just one leg of a triangle, and $\vec{y}$ as a second leg of that same triangle, then, from vector addition, we get that the third leg of that same triangle is just $\vec{x} + \vec{y}$.  Take a look at the below image.  
+
+![triangleInequality](triangleInequality.jpg)
+
+Note that at the far left, the length of the third leg of the triangle (corresponding to a very acute angle between $\vec{x}$ and $\vec{y}$) is very small relative to the lengths of the other two legs.  However, if we increase our angle between $\vec{x}$ and $\vec{y}$ so that they are now parallel to one another, we maximize the length of $\vec{x} + \vec{y}$.  Visually, it makes sense that the longest $\vec{x} + \vec{y}$ can be is just the sum of the other two legs of the triangle.  Therefore, we get the inequality stated above.  
+
+# Select Problems
+## Relationship between Rationals and Irrationals
+
+**(Rudin 1.1) If $r$ is rational ( $r \neq 0$ ) and $x$ is irrational, prove that $r + x$ and $rx$ are irrational.**
+
+We can prove both statements by contradiction.  First, assume $r + x$ is rational.  Then, since the rationals are a field and closed under addition, we must have $-r + r + x = 0 + x = x \in Q$, which is a contradiction since $x$ was given to be irrational.  Therefore, $r + x$ must be irrational.  
+
+Similarly, assume $rx$ is rational.  Then since the rationals are closed under multiplication, we get $(\frac{1}{r})rx = 1x = x \in Q$ which is another contradiction.  Therefore, we must have that $rx$ is irrational.  
+
+## 12 Has No Square
+
+**(Rudin 1.2) Prove that there is no rational number whose square is 12.**
+
+Let's prove this by contradiction.  Assume that there is a rational number $x = \frac{m}{n}$ such that $m$ and $n$ are relatively prime (share no common factors other than 1) whose square is 12.  Then we must have $m^2 = 3 \cdot 2^2 n^2$.  Since there is a 3 on the RHS, this implies that $m$ is divisible by 3.  Let $m = 3a$.  Then we get $3^2a^2 = 32^2n^2 \Rightarrow 3a^2 = 2^2n^2$.  This in turn implies that $n$ is divisible by 3.  However, this yields a contradiction since we assumed $m$ and $n$ were relatively prime.  Thus, our assumption must be incorrect, and there does not exist such a rational number $x$.  
