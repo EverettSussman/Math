@@ -45,7 +45,7 @@ Note that at the far left, the length of the third leg of the triangle (correspo
 # Select Problems
 ## Relationship between Rationals and Irrationals
 
-**(Rudin 1.1) If $r$ is rational ( $r \neq 0$ ) and $x$ is irrational, prove that $r + x$ and $rx$ are irrational.**
+**(Rudin 1.1)** If $r$ is rational ( $r \neq 0$ ) and $x$ is irrational, prove that $r + x$ and $rx$ are irrational.
 
 We can prove both statements by contradiction.  First, assume $r + x$ is rational.  Then, since the rationals are a field and closed under addition, we must have $-r + r + x = 0 + x = x \in Q$, which is a contradiction since $x$ was given to be irrational.  Therefore, $r + x$ must be irrational.  
 
@@ -53,12 +53,12 @@ Similarly, assume $rx$ is rational.  Then since the rationals are closed under m
 
 ## 12 Has No Square
 
-**(Rudin 1.2) Prove that there is no rational number whose square is 12.**
+**(Rudin 1.2)** Prove that there is no rational number whose square is 12.
 
 Let's prove this by contradiction.  Assume that there is a rational number $x = \frac{m}{n}$ such that $m$ and $n$ are relatively prime (share no common factors other than 1) whose square is 12.  Then we must have $m^2 = 3 \cdot 2^2 n^2$.  Since there is a 3 on the RHS, this implies that $m$ is divisible by 3.  Let $m = 3\cdot a$.  Then we get $3^2\cdot a^2 = 3\cdot 2^2n^2 \Rightarrow 3\cdot a^2 = 2^2\cdot n^2$.  This in turn implies that $n$ is divisible by 3.  However, this yields a contradiction since we assumed $m$ and $n$ were relatively prime.  Thus, our assumption must be incorrect, and there does not exist such a rational number $x$.  
 
 ## Infimum, Supremum, and Negatives
 
-**(Rudin 1.5) Let $A$ be a nonempty set of real numbers which is bounded below.  Let $-A$ be the set of all numbers $-x$, where $x \in A$.  Prove that
+**(Rudin 1.5)** Let $A$ be a nonempty set of real numbers which is bounded below.  Let $-A$ be the set of all numbers $-x$, where $x \in A$.  Prove that
 
-$$\inf A = - \sup(-A).$$**
+$$\inf A = - \sup(-A).$$
