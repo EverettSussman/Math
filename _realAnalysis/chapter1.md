@@ -31,9 +31,10 @@ Note that in the above picture, $\alpha$ does not necessarily have to be in $B$,
 Another classic theorem from Rudin's first chapter is the following:
 
 **Theorem 2 (Rudin 1.37)**: Let $\vec{x}, \vec{y} \in \mathbb{R}^k$.  Then
+
 $$|\vec{x} + \vec{y}| \leq |\vec{x}| + |\vec{y}|. $$
 
-This is called the triangle inequality, and the reason behind this name should hopefully become clear after the following image.  Note that $|\vec{x}|$ can be interpreted as the magnitude (or length) of the vector $\vec{x}$.
+This is called the triangle inequality, and the reason behind this name should hopefully become clear after the following image.  Note that $ |\vec{x}| $ can be interpreted as the magnitude (or length) of the vector $\vec{x}$.
 
 Looking at the instance where $k = 2$, if we interpret $\vec{x}$ as just one leg of a triangle, and $\vec{y}$ as a second leg of that same triangle, then, from vector addition, we get that the third leg of that same triangle is just $\vec{x} + \vec{y}$.  Take a look at the below image.  
 
@@ -54,4 +55,4 @@ Similarly, assume $rx$ is rational.  Then since the rationals are closed under m
 
 **(Rudin 1.2) Prove that there is no rational number whose square is 12.**
 
-Let's prove this by contradiction.  Assume that there is a rational number $x = \frac{m}{n}$ such that $m$ and $n$ are relatively prime (share no common factors other than 1) whose square is 12.  Then we must have $m^2 = 3 \cdot 2^2 n^2$.  Since there is a 3 on the RHS, this implies that $m$ is divisible by 3.  Let $m = 3a$.  Then we get $3^2a^2 = 32^2n^2 \Rightarrow 3a^2 = 2^2n^2$.  This in turn implies that $n$ is divisible by 3.  However, this yields a contradiction since we assumed $m$ and $n$ were relatively prime.  Thus, our assumption must be incorrect, and there does not exist such a rational number $x$.  
+Let's prove this by contradiction.  Assume that there is a rational number $x = \frac{m}{n}$ such that $m$ and $n$ are relatively prime (share no common factors other than 1) whose square is 12.  Then we must have $m^2 = 3 \cdot 2^2 n^2$.  Since there is a 3 on the RHS, this implies that $m$ is divisible by 3.  Let $m = 3\cdot a$.  Then we get $3^2\cdot a^2 = 3\cdot 2^2n^2 \Rightarrow 3\cdot a^2 = 2^2\cdot n^2$.  This in turn implies that $n$ is divisible by 3.  However, this yields a contradiction since we assumed $m$ and $n$ were relatively prime.  Thus, our assumption must be incorrect, and there does not exist such a rational number $x$.  
