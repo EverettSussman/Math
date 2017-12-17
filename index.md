@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+---
+title: Diving into Mathematics
+layout: default
+---
 
-You can use the [editor on GitHub](https://github.com/EverettSussman/Math/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Background for this Website
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+At the beginning of 2017, I stumbled across an amazing video called the _Map of Mathematics_ by the Domain of Science.  The video essentially connected a wide variety of mathematical fields together into one concise web, highlighting how certain fields build upon others.  
 
-### Markdown
+At the time, I felt that despite challenging myself in several applied mathematical courses in college, I still lacked a strong foundation in rigorous analysis.  Further, most graduate level texts that I found online seemed devoid of pictures or other visuals that assisted in explaining abstract material.  As a visual learner, this dearth of imagery hindered my enthusiasm for the topic.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Thus, after watching the _Map of Mathematics_, I set a challenge for myself:  
 
-```markdown
-Syntax highlighted code block
+I wanted to master as many of the mentioned mathematical fields as possible.  
 
-# Header 1
-## Header 2
-### Header 3
+This goal would not only satisfy my own curiosity and assist my other studies, but would hopefully be a wonderful venue for me to add imagery to these often dense topics that could ultimately help others learn the material as well.  
 
-- Bulleted
-- List
+# Structure of the Website
 
-1. Numbered
-2. List
+This website is to be structured in the following way.  I will use seminal texts (mostly free and online), and provide blogs working through several theorems and problems from each chapter, adding visuals to assist each webpage.  
 
-**Bold** and _Italic_ and `Code` text
+Each subsection of the website is devoted to a field.  On this main page, I will eventually keep track of the work that I have accomplished to date.  
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EverettSussman/Math/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Of course, at the bottom of each page, feedback is much appreciated.  Mathematics is a collaborate sport, and I look forward to pointers and advice along the way!
