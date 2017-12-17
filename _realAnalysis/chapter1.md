@@ -32,9 +32,9 @@ Another classic theorem from Rudin's first chapter is the following:
 
 **Theorem 2 (Rudin 1.37)**: Let $\vec{x}, \vec{y} \in \mathbb{R}^k$.  Then
 
-$$|\vec{x} + \vec{y}| \leq |\vec{x}| + |\vec{y}|. $$
+$\begin{center} |\vec{x} + \vec{y}| \leq |\vec{x}| + |\vec{y}|. \end{center}$
 
-This is called the triangle inequality, and the reason behind this name should hopefully become clear after the following image.  Note that $ |\vec{x}| $ can be interpreted as the magnitude (or length) of the vector $\vec{x}$.
+This is called the triangle inequality, and the reason behind this name should hopefully become clear after the following image.  Note that $\| \vec{x} \|$ can be interpreted as the magnitude (or length) of the vector $\vec{x}$.
 
 Looking at the instance where $k = 2$, if we interpret $\vec{x}$ as just one leg of a triangle, and $\vec{y}$ as a second leg of that same triangle, then, from vector addition, we get that the third leg of that same triangle is just $\vec{x} + \vec{y}$.  Take a look at the below image.  
 
