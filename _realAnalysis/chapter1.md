@@ -66,3 +66,11 @@ $$\inf A = - \sup(-A).$$
 Let's start with the below picture:
 
 ![infminussup](infminussup.png)
+
+There should be some symmetry between $A$ and $-A$ about 0, where elements $x_1 < x_2$ in $A$ correspond to $-x_1 > -x_2$ in $-A$.  Therefore, it makes sense that a lower bound just becomes the negative of an upper bound, but let's formalize this further.  
+
+Let $\alpha = \inf A$.  Then $\alpha \leq x \forall x \in A$, but if $y > \alpha$, then there is an $x \in A$ such that $\alpha < x < y$.  However, multiplying these inequalities by -1 yields $-\alpha \geq -x \forall x \in A$.  Note that this means $-\alpha \geq -x \forall -x \in -A$ by definition of $-A$.  Thus, $-A$ is bounded above by $-\alpha$.  
+
+The second inequality with $y$, initially greater than $\alpha$ now yields $-y < -\alpha$.  Further, we have that there exists a $-x$ where $-y < -x < -\alpha$.  Thus, $-\alpha$ is the lowest-upper bound, or $-\alpha = \sup (-A)$.  Therefore, we get the Relationship
+
+$$\inf A = -\sup (-A). $$
