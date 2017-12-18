@@ -83,8 +83,7 @@ $$|\vec{x} + \vec{y}|^2 + |\vec{x} - \vec{y}|^2 = 2|\vec{x}|^2 + 2|\vec{y}|^2 $$
 if $\vec{x}, \vec{y} \in \mathbb{R}^k$.  Interpret this geometrically, as a statement about parallelograms.  
 
 First, we expand
-\begin{align}
-|\vec{x} + \vec{y}|^2 + |\vec{x} - \vec{y}|^2 &= \vec{x}\cdot \vec{x} + 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y} + \vec{x}\cdot \vec{x} - 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y} \\
-&= 2|\vec{x}|^2 + 2|\vec{y}|^2
-\end{align}
+
+$$|\vec{x} + \vec{y}|^2 + |\vec{x} - \vec{y}|^2 &= \vec{x}\cdot \vec{x} + 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y} + \vec{x}\cdot \vec{x} - 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y}$$
+$$ = 2|\vec{x}|^2 + 2|\vec{y}|^2 $$
 as desired.
