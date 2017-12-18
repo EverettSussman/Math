@@ -71,6 +71,20 @@ There should be some symmetry between $A$ and $-A$ about 0, where elements $x_1 
 
 Let $\alpha = \inf A$.  Then $\alpha \leq x \forall x \in A$, but if $y > \alpha$, then there is an $x \in A$ such that $\alpha < x < y$.  However, multiplying these inequalities by -1 yields $-\alpha \geq -x \forall x \in A$.  Note that this means $-\alpha \geq -x \forall -x \in -A$ by definition of $-A$.  Thus, $-A$ is bounded above by $-\alpha$.  
 
-The second inequality with $y$, initially greater than $\alpha$ now yields $-y < -\alpha$.  Further, we have that there exists a $-x$ where $-y < -x < -\alpha$.  Thus, $-\alpha$ is the lowest-upper bound, or $-\alpha = \sup (-A)$.  Therefore, we get the Relationship
+The second inequality with $y$, initially greater than $\alpha$ now yields $-y < -\alpha$.  Further, we have that there exists a $-x$ where $-y < -x < -\alpha$.  Thus, $-\alpha$ is the lowest-upper bound, or $-\alpha = \sup (-A)$.  Therefore, we get the relationship
 
 $$\inf A = -\sup (-A). $$
+
+## Parallelograms
+
+**(Rudin 1.17)** Prove that
+
+$$|\vec{x} + \vec{y}|^2 + |\vec{x} - \vec{y}|^2 = 2|\vec{x}|^2 + 2|\vec{y}|^2 $$
+if $\vec{x}, \vec{y} \in \mathbb{R}^k$.  Interpret this geometrically, as a statement about parallelograms.  
+
+First, we expand
+\begin{align}
+|\vec{x} + \vec{y}|^2 + |\vec{x} - \vec{y}|^2 &= \vec{x}\cdot \vec{x} + 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y} + \vec{x}\cdot \vec{x} - 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y} \\
+&= 2|\vec{x}|^2 + 2|\vec{y}|^2
+\end{align}
+as desired.
