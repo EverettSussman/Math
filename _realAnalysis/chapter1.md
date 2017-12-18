@@ -92,4 +92,4 @@ Now, the below image helps to explain this geometric relationship:
 
 ![rudin1_17](rudin1_17.png)
 
-We see that the left hand side of the equation can be generalized to a pythagorean theorem (hypotenuse squared is equal to the sum of the squares of the other two legs) but with any angle in between the legs.  Since we are fitting these two triangles next to one another, they can create the form of a parallelogram.  Thus, we get a new _pythagorean theorem for parallelograms_, where the squares of the two diagonals of a parallelgoram are equal to the squares of that parallelogram's sides.  
+We see that the left hand side of the equation can be generalized to a pythagorean theorem (hypotenuse squared is equal to the sum of the squares of the other two legs) but with any angle in between the legs.  Since we are fitting these two triangles next to one another, they can create the form of a parallelogram.  Thus, we get a new _pythagorean theorem for parallelograms_, where the squares of the two diagonals of a parallelogram are equal to the squares of that parallelogram's sides.  
