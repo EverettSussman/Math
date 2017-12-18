@@ -84,6 +84,6 @@ if $\vec{x}, \vec{y} \in \mathbb{R}^k$.  Interpret this geometrically, as a stat
 
 First, we expand
 
-$$|\vec{x} + \vec{y}|^2 + |\vec{x} - \vec{y}|^2 &= \vec{x}\cdot \vec{x} + 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y} + \vec{x}\cdot \vec{x} - 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y}$$
+$$ |\vec{x} + \vec{y}|^2 + |\vec{x} - \vec{y}|^2 = \vec{x}\cdot \vec{x} + 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y} + \vec{x}\cdot \vec{x} - 2\vec{x} \cdot \vec{y} + \vec{y}\cdot \vec{y} $$
 $$ = 2|\vec{x}|^2 + 2|\vec{y}|^2 $$
 as desired.
