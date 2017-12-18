@@ -28,3 +28,25 @@ Here, we can see that no matter the distance $r$ for each neighborhood, there st
 The essence of an isolated point is that there can be a radius $r$ such that $N_r(p)$ does not contain any point $q_i \in E$.  For example, $p$ below is an isolated point:
 
 ![2_15_3](chapter2Assets/2_15_3.png)
+
+* $E$ is closed if every limit point of $E$ is a point of $E$.
+
+The below are all examples of closed sets:
+
+![2_15_4](chapter2Assets/2_15_4.png)
+
+Note that the boundary of $E$ is contained in $E$, since the boundary is a limit point in this set $E$.  
+
+* A point $p$ is an **interior** point of $E$ if there is a neighborhood $N$ of $p$ such that $N \subset E$.  
+
+Note that in the below, point $p_1$ is in the interior of $E$, but point $p_2$ is not, since there is no neighborhood that surrounds point $p_2$ where $N \subset E$.  
+
+![2_15_5](chapter2Assets/2_15_5.png)
+
+* $E$ is **open** if every point of $E$ is an interior point of $E$.  
+
+Below are examples of open sets:
+
+![2_15_6](chapter2Assets/2_15_6.png)
+
+Note that $E$ above does not contain its boundary.  This is because, if point $p$ were on the boundary of $E$, then there would be no radius $r > 0$ such that $N_r(p) \subset E$, as part of the neighborhood would be sticking out of $E$.  
