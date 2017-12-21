@@ -50,3 +50,17 @@ Below are examples of open sets:
 ![2_15_6](chapter2Assets/2_15_6.png)
 
 Note that $E$ above does not contain its boundary.  This is because, if point $p$ were on the boundary of $E$, then there would be no radius $r > 0$ such that $N_r(p) \subset E$, as part of the neighborhood would be sticking out of $E$.  
+
+## Compact Subsets are Closed
+
+The following theorem has a very interesting visual proof:
+
+**(Rudin 2.34)** Compact subsets of metric spaces are closed.  
+
+In this proof, one shows that the complementary subset is open by constructing neighborhoods of different diameters.  Let $K \subset X$ be a compact subset of a metric space $X$.  The goal is to show that $K^c$ is open, which then implies that $K$ is closed.  
+
+Since $K$ is compact, we know that there exists a finite union of open subsets that cover $K$.  The key to this proof is in the construction of these open subsets.  Pick a point $p \not \in K$, and for any point $q_i \in K$, define neighborhoods $V_{q_i}, W_{q_i}$ centered about $p$ and $q_i$ respectively such that their radii are less than $\frac{1}{2}d(p, q_i)$, where $d$ is a distance metric in $X$.  
+
+![compactSetClosed](chapter2Assets/compactSetClosed.png)
+
+Due to $K$ being compact, we know $K \subset \cup_{i=1}^n W_{q_i}$ where $n$ is finite.  If we define a new neighborhood $V = \cap_{i=1}^n V_{q_i}$ centered about $p$, then, as the above image clearly shows, $V$ does not intersect with any $W_{q_i}$.  Thus, any point $p$ not in $K$ has an open neighborhood $V \subset K^c$, implying that $K^c$ is open.  Therefore, $K$ is compact, as desired. 
